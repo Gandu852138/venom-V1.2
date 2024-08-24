@@ -318,7 +318,7 @@ def handle_bgmi(message):
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
                 bot.reply_to(message, response)  # Notify the user that the attack is finished
         else:
-            response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
+            response = "✅ Usage :- /sex <target> <port> <time>"  # Updated command syntax
     else:
         response = ("🚫 Unauthorized Access! 🚫\n\nOops! 𝐋𝐚𝐧𝐝 𝐥𝐚 𝐥𝐞 𝐦𝐞𝐫𝐚. 𝐃𝐌 𝐓𝐎 𝐁𝐔𝐘 𝐀𝐂𝐂𝐄𝐒𝐒:- @𝐥𝐮𝐜𝐤𝐲𝐬𝐚𝐡𝐮𝟏𝟏𝟏")
 
