@@ -189,7 +189,7 @@ def remove_user(message):
             response = '''Please Specify A User ID to Remove. 
 ✅ Usage: /remove <userid>'''
     else:
-        response = "𝐏𝐀𝐇𝐋𝐄 𝐁𝐔𝐘 𝐊𝐀𝐑 𝐋𝐄 𝐌𝐄𝐑𝐀 𝐁𝐀𝐂𝐂𝐇𝐀:- @𝐥𝐮𝐜𝐤𝐲𝐬𝐚𝐡𝐮𝟏𝟏𝟏 🙇."
+        response = "𝐏𝐀𝐇𝐋𝐄 𝐁𝐔𝐘 𝐊𝐀𝐑 𝐋𝐄 𝐌𝐄𝐑𝐀 𝐁𝐀𝐂𝐂𝐇𝐀:- @luckysahu111 🙇."
 
     bot.reply_to(message, response)
 
@@ -208,7 +208,7 @@ def clear_logs_command(message):
         except FileNotFoundError:
             response = "Logs are already cleared ❌."
     else:
-        response = "𝐏𝐀𝐇𝐋𝐄 𝐁𝐔𝐘 𝐊𝐀𝐑 𝐋𝐄 𝐌𝐄𝐑𝐀 𝐁𝐀𝐂𝐂𝐇𝐀 :- @𝐥𝐮𝐜𝐤𝐲𝐬𝐚𝐡𝐮𝟏𝟏𝟏 ❄."
+        response = "𝐏𝐀𝐇𝐋𝐄 𝐁𝐔𝐘 𝐊𝐀𝐑 𝐋𝐄 𝐌𝐄𝐑𝐀 𝐁𝐀𝐂𝐂𝐇𝐀 :- @luckysahu111 ❄."
     bot.reply_to(message, response)
 
 
@@ -227,7 +227,7 @@ def clear_users_command(message):
         except FileNotFoundError:
             response = "users are already cleared ❌."
     else:
-        response = "𝐅𝐑𝐄𝐄 𝐌𝐄 𝐌𝐄𝐑𝐀 𝐋𝐎𝐑𝐀 𝐋𝐄𝐆𝐀 𝐓𝐎𝐇 𝐁𝐎𝐋 𝐉𝐀𝐋𝐃𝐈 𝐓𝐈𝐌𝐄 𝐍𝐇𝐈 𝐇𝐀𝐈 𝐁𝐔𝐘:- @𝐥𝐮𝐜𝐤𝐲𝐬𝐚𝐡𝐮𝟏𝟏𝟏🙇."
+        response = "𝐅𝐑𝐄𝐄 𝐌𝐄 𝐌𝐄𝐑𝐀 𝐋𝐎𝐑𝐀 𝐋𝐄𝐆𝐀 𝐓𝐎𝐇 𝐁𝐎𝐋 𝐉𝐀𝐋𝐃𝐈 𝐓𝐈𝐌𝐄 𝐍𝐇𝐈 𝐇𝐀𝐈 𝐁𝐔𝐘:- @luckysahu111🙇."
     bot.reply_to(message, response)
  
 
@@ -252,7 +252,7 @@ def show_all_users(message):
         except FileNotFoundError:
             response = "No data found ❌"
     else:
-        response = "𝐅𝐑𝐄𝐄 𝐌𝐄 𝐌𝐄𝐑𝐀 𝐋𝐎𝐑𝐀 𝐋𝐄𝐆𝐀 𝐓𝐎𝐇 𝐁𝐎𝐋 𝐉𝐀𝐋𝐃𝐈 𝐓𝐈𝐌𝐄 𝐍𝐇𝐈 𝐇𝐀𝐈 𝐁𝐔𝐘:- @𝐥𝐮𝐜𝐤𝐲𝐬𝐚𝐡𝐮𝟏𝟏𝟏 ❄."
+        response = "𝐅𝐑𝐄𝐄 𝐌𝐄 𝐌𝐄𝐑𝐀 𝐋𝐎𝐑𝐀 𝐋𝐄𝐆𝐀 𝐓𝐎𝐇 𝐁𝐎𝐋 𝐉𝐀𝐋𝐃𝐈 𝐓𝐈𝐌𝐄 𝐍𝐇𝐈 𝐇𝐀𝐈 𝐁𝐔𝐘:- @luckysahu111 ❄."
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['logs'])
@@ -270,7 +270,7 @@ def show_recent_logs(message):
             response = "No data found ❌"
             bot.reply_to(message, response)
     else:
-        response = "𝐅𝐑𝐄𝐄 𝐌𝐄 𝐌𝐄𝐑𝐀 𝐋𝐎𝐑𝐀 𝐋𝐄𝐆𝐀 𝐓𝐎𝐇 𝐁𝐎𝐋 𝐉𝐀𝐋𝐃𝐈 𝐓𝐈𝐌𝐄 𝐍𝐇𝐈 𝐇𝐀𝐈 𝐁𝐔𝐘:- @𝐥𝐮𝐜𝐤𝐲𝐬𝐚𝐡𝐮𝟏𝟏𝟏❄."
+        response = "𝐅𝐑𝐄𝐄 𝐌𝐄 𝐌𝐄𝐑𝐀 𝐋𝐎𝐑𝐀 𝐋𝐄𝐆𝐀 𝐓𝐎𝐇 𝐁𝐎𝐋 𝐉𝐀𝐋𝐃𝐈 𝐓𝐈𝐌𝐄 𝐍𝐇𝐈 𝐇𝐀𝐈 𝐁𝐔𝐘:- @luckysahu111❄."
         bot.reply_to(message, response)
 
 
@@ -318,9 +318,9 @@ def handle_bgmi(message):
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
                 bot.reply_to(message, response)  # Notify the user that the attack is finished
         else:
-            response = "✅ Usage :- /sex <target> <port> <time>"  # Updated command syntax
+            response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! 𝐋𝐚𝐧𝐝 𝐥𝐚 𝐥𝐞 𝐦𝐞𝐫𝐚. 𝐃𝐌 𝐓𝐎 𝐁𝐔𝐘 𝐀𝐂𝐂𝐄𝐒𝐒:- @𝐥𝐮𝐜𝐤𝐲𝐬𝐚𝐡𝐮𝟏𝟏𝟏")
+        response = ("🚫 Unauthorized Access! 🚫\n\nOops! 𝐋𝐚𝐧𝐝 𝐥𝐚 𝐥𝐞 𝐦𝐞𝐫𝐚. 𝐃𝐌 𝐓𝐎 𝐁𝐔𝐘 𝐀𝐂𝐂𝐄𝐒𝐒:- @luckysahu111")
 
     bot.reply_to(message, response)
 
